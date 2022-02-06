@@ -1,0 +1,75 @@
+body{
+  background-color: #3C3C48;
+}
+
+h1{
+  color: #67D7A3;
+  margin: 3% auto 7%;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+}
+
+p{
+  font-size: 2rem;
+  color: #67D7A3;
+  font-family: 'Philosopher', sans-serif;
+}
+
+img{
+  width: 70%;
+  margin: auto 5%;
+}
+
+footer{
+
+  color: gray;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice{
+  text-align: center;
+  display: inline-block;
+}
+
+.btn{
+  background-color: #9C060C;
+  color: #fff;
+  margin: 4%;
+}
+
+@media (max-width: 800px) {
+  h1{
+    font-size: 3rem;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+  footer{
+    margin-top: 70%;
+  }
+
+  .dice{
+    width: 40%;
+    margin: 6% auto 6%;
+    text-align: center;
+    display: inline-block;
+
+  }
+  .container{
+    width: auto;
+    text-align: center;
+  }
+
+  .image{
+    width: 45%;
+  }
+}
